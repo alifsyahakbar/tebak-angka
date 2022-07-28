@@ -1,10 +1,6 @@
 function main() {
    var nama = prompt("Masukan nama anda :");
 
-   if(nama === 0) {
-      prompt("Masukan nama anda :");
-   }
-
    let ulang = true;
    while(ulang) {
 
@@ -32,7 +28,7 @@ function main() {
          }
          
          if(kesempatan === 0) {
-            alert('Kesempatan telah habis, ANDA GAGAL! . Nilai yg dicari adalah ' + nilai);
+            alert('Kesempatan telah Habis, ANDA GAGAL! . Nilai yg dicari adalah ' + nilai);
          }
       }
       ulang = confirm('Ulang Lagi?');
