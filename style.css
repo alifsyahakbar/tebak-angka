@@ -1,0 +1,42 @@
+body {
+  background-color: #b2c8df;
+  text-align: center;
+}
+
+.judul {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+svg {
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+  color: #6e85b7;
+}
+
+.judul button {
+  color: white;
+
+  border: none;
+  padding: 10px 20px;
+  background-color: #c4d7e0;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: auto;
+  text-align: center;
+}
