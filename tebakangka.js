@@ -1,5 +1,5 @@
 function main() {
-   var nama = prompt("Masukan nama anda :");
+   var nama = prompt("Masukan Nama Anda :");
 
    let ulang = true;
    while(ulang) {

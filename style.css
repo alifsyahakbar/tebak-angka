@@ -33,7 +33,7 @@ h1 {
   cursor: pointer;
 }
 
-footer {
+.footer {
   width: 100%;
   height: 50px;
 
@@ -43,7 +43,7 @@ footer {
   text-align: center;
 }
 
-footer a {
+.footer a {
   padding: 10px;
   text-decoration: none;
   color: black;
