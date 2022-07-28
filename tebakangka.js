@@ -7,9 +7,10 @@ function main() {
       let kesempatan = 3;
       let nilai = Math.floor(Math.random()*10+1);
       let hasil = '';
+      
+      alert('Hi! ' + nama.charAt(0).toUpperCase() + nama.slice(1) + '🙌' + '\nPermainan dengan ' + kesempatan + ' kesempatan.');
 
       while(kesempatan >= 1) {
-         alert('Hi! ' + nama.charAt(0).toUpperCase() + nama.slice(1) + '🙌' + '\nPermainan dengan ' + kesempatan + ' kesempatan.');
          let player = parseInt(prompt("Tebak Angka 1 - 10"));
          if (player === nilai) {
             hasil = 'BENAR';
